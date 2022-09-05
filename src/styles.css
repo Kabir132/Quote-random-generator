@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  background: var(--bs-dark);
+}
+
+.App {
+  font-family: "lato", sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  display: grid;
+  background-color: #adb5bd;
+  border-radius: 10px;
+  width: 50vw;
+  height: auto;
+}
+
+h1 {
+  font-size: 20px;
+  grid-column: 1 / span 5;
+  grid-row: 1 / 1;
+}
+
+p {
+  grid-column: 1 / span 5;
+  grid-row: 2 / 2;
+}
+
+button a {
+  grid-column: 1 / span 2;
+  grid-row: 3 / 3;
+}

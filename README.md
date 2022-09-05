@@ -1,2 +1,2 @@
-# Quote-random-generator
+# randomQuotes
 Created with CodeSandbox
